@@ -4,6 +4,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import CadastroScreen from './screens/CadastroScreen';
 import ConsultaScreen from './screens/ConsultaScreen';
 import HomeScreen from './screens/HomeScreen';
+import axios from 'axios';
+
 
 const Stack = createNativeStackNavigator();
 
